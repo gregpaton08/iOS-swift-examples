@@ -21,7 +21,7 @@ class TableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        model.append(["hello", "goodbye", "see you later"])
+        model.append(["hello", "goodbye", "see ya!"])
         model.append(["dog", "cat", "bird", "snake"])
     }
 
@@ -49,7 +49,6 @@ class TableViewController: UITableViewController {
             
             cell.title.text = model[indexPath.section][indexPath.row]
             cell.userImageView.image = UIImage(named: "apple.png")
-            cell.userImageView.isHidden = true
             
             return cell
         }
