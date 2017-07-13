@@ -86,6 +86,20 @@ class TableViewController: UITableViewController {
         return true
     }
     */
+    
+    // MARK: - Table View Delegate
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "headerView")
+        
+        header?.backgroundColor = UIColor.black
+        
+        return header
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 20.0
+    }
 
     /*
     // MARK: - Navigation
