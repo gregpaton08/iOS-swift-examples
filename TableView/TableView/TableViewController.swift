@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    var model = Array<Array<String>>()
+    private var model = Array<Array<String>>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class TableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         model.append(["hello", "goodbye", "see you later"])
+        model.append(["dog", "cat", "bird", "snake"])
     }
 
     override func didReceiveMemoryWarning() {
