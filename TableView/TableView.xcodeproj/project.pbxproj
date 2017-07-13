@@ -12,6 +12,8 @@
 		37ECFFA31F17BADC001A9314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ECFFA21F17BADC001A9314 /* Assets.xcassets */; };
 		37ECFFA61F17BADC001A9314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ECFFA41F17BADC001A9314 /* LaunchScreen.storyboard */; };
 		37ECFFAE1F17BC30001A9314 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ECFFAD1F17BC30001A9314 /* TableViewController.swift */; };
+		37ECFFB01F17D11B001A9314 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ECFFAF1F17D11B001A9314 /* TableViewCell.swift */; };
+		37ECFFB21F17D3E5001A9314 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 37ECFFB11F17D3E5001A9314 /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		37ECFFA51F17BADC001A9314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37ECFFA71F17BADC001A9314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37ECFFAD1F17BC30001A9314 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		37ECFFAF1F17D11B001A9314 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		37ECFFB11F17D3E5001A9314 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				37ECFFA41F17BADC001A9314 /* LaunchScreen.storyboard */,
 				37ECFFA71F17BADC001A9314 /* Info.plist */,
 				37ECFFAD1F17BC30001A9314 /* TableViewController.swift */,
+				37ECFFAF1F17D11B001A9314 /* TableViewCell.swift */,
+				37ECFFB11F17D3E5001A9314 /* apple.png */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				37ECFFA61F17BADC001A9314 /* LaunchScreen.storyboard in Resources */,
 				37ECFFA31F17BADC001A9314 /* Assets.xcassets in Resources */,
+				37ECFFB21F17D3E5001A9314 /* apple.png in Resources */,
 				37ECFFA11F17BADC001A9314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37ECFFB01F17D11B001A9314 /* TableViewCell.swift in Sources */,
 				37ECFFAE1F17BC30001A9314 /* TableViewController.swift in Sources */,
 				37ECFF9C1F17BADC001A9314 /* AppDelegate.swift in Sources */,
 			);

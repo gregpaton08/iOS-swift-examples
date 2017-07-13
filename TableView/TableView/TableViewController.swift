@@ -43,13 +43,18 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as? TableViewCell {
+            
+            // Configure the cell...
+            
+            cell.title.text = model[indexPath.section][indexPath.row]
+            cell.userImageView.image = UIImage(named: "apple.png")
+            cell.userImageView.isHidden = true
+            
+            return cell
+        }
 
-        // Configure the cell...
-        
-        cell.textLabel?.text = model[indexPath.section][indexPath.row]
-
-        return cell
+        return tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
     }
 
     /*
