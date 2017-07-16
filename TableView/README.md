@@ -6,7 +6,7 @@
 
 1. In Main.storyboard delete the existing view controller.
 2. Drag out a Table View Controller.
-  * Optionally, drag out a navigation view controller which will include a table view controller.
+    * Optionally, drag out a navigation view controller which will include a table view controller.
 
 ### Create a Custom Subclass of UITableViewController
 
